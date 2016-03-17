@@ -1,0 +1,426 @@
+   switch(current) {
+      case '':
+         byteA = ((char) 0b00110000);
+         byteB = ((char) 0b00111010);
+         break;
+      case '':
+         byteA = ((char) 0b00110000);
+         byteB = ((char) 0b00110110);
+         break;
+      case '':
+         byteA = ((char) 0b00110000);
+         byteB = ((char) 0b00111110);
+         break;
+      case ' ':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110000);
+         break;
+      case '!':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111000);
+         break;
+      case '"':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110100);
+         break;
+      case '#':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111100);
+         break;
+      case '$':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110010);
+         break;
+      case '%':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111010);
+         break;
+      case '&':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110110);
+         break;
+      case ''':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111110);
+         break;
+      case '(':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110001);
+         break;
+      case ')':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111001);
+         break;
+      case '*':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110101);
+         break;
+      case '+':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111101);
+         break;
+      case ',':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110011);
+         break;
+      case '-':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111011);
+         break;
+      case '.':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00110111);
+         break;
+      case '/':
+         byteA = ((char) 0b00110100);
+         byteB = ((char) 0b00111111);
+         break;
+      case '0':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110000);
+         break;
+      case '1':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111000);
+         break;
+      case '2':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110100);
+         break;
+      case '3':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111100);
+         break;
+      case '4':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110010);
+         break;
+      case '5':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111010);
+         break;
+      case '6':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110110);
+         break;
+      case '7':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111110);
+         break;
+      case '8':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110001);
+         break;
+      case '9':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111001);
+         break;
+      case ':':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110101);
+         break;
+      case ';':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111101);
+         break;
+      case '<':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110011);
+         break;
+      case '=':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111011);
+         break;
+      case '>':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00110111);
+         break;
+      case '?':
+         byteA = ((char) 0b00111100);
+         byteB = ((char) 0b00111111);
+         break;
+      case '@':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110000);
+         break;
+      case 'A':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111000);
+         break;
+      case 'B':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110100);
+         break;
+      case 'C':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111100);
+         break;
+      case 'D':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110010);
+         break;
+      case 'E':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111010);
+         break;
+      case 'F':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110110);
+         break;
+      case 'G':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111110);
+         break;
+      case 'H':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110001);
+         break;
+      case 'I':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111001);
+         break;
+      case 'J':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110101);
+         break;
+      case 'K':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111101);
+         break;
+      case 'L':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110011);
+         break;
+      case 'M':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111011);
+         break;
+      case 'N':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00110111);
+         break;
+      case 'O':
+         byteA = ((char) 0b00110010);
+         byteB = ((char) 0b00111111);
+         break;
+      case 'P':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110000);
+         break;
+      case 'Q':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111000);
+         break;
+      case 'R':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110100);
+         break;
+      case 'S':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111100);
+         break;
+      case 'T':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110010);
+         break;
+      case 'U':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111010);
+         break;
+      case 'V':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110110);
+         break;
+      case 'W':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111110);
+         break;
+      case 'X':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110001);
+         break;
+      case 'Y':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111001);
+         break;
+      case 'Z':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110101);
+         break;
+      case '[':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111101);
+         break;
+      case '\':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110011);
+         break;
+      case ']':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111011);
+         break;
+      case '^':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00110111);
+         break;
+      case '_':
+         byteA = ((char) 0b00111010);
+         byteB = ((char) 0b00111111);
+         break;
+      case '`':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110000);
+         break;
+      case 'a':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111000);
+         break;
+      case 'b':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110100);
+         break;
+      case 'c':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111100);
+         break;
+      case 'd':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110010);
+         break;
+      case 'e':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111010);
+         break;
+      case 'f':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110110);
+         break;
+      case 'g':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111110);
+         break;
+      case 'h':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110001);
+         break;
+      case 'i':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111001);
+         break;
+      case 'j':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110101);
+         break;
+      case 'k':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111101);
+         break;
+      case 'l':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110011);
+         break;
+      case 'm':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111011);
+         break;
+      case 'n':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00110111);
+         break;
+      case 'o':
+         byteA = ((char) 0b00110110);
+         byteB = ((char) 0b00111111);
+         break;
+      case 'p':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110000);
+         break;
+      case 'q':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111000);
+         break;
+      case 'r':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110100);
+         break;
+      case 's':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111100);
+         break;
+      case 't':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110010);
+         break;
+      case 'u':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111010);
+         break;
+      case 'v':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110110);
+         break;
+      case 'w':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111110);
+         break;
+      case 'x':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110001);
+         break;
+      case 'y':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111001);
+         break;
+      case 'z':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110101);
+         break;
+      case '{':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111101);
+         break;
+      case '|':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110011);
+         break;
+      case '}':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00111011);
+         break;
+      case '~':
+         byteA = ((char) 0b00111110);
+         byteB = ((char) 0b00110111);
+         break;
+      case '­':
+         byteA = ((char) 0b00110101);
+         byteB = ((char) 0b00111011);
+         break;
+      case '°':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00110000);
+         break;
+      case '±':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00111000);
+         break;
+      case '´':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00110010);
+         break;
+      case 'µ':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00111010);
+         break;
+      case '·':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00111110);
+         break;
+      case '¸':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00110001);
+         break;
+      case 'º':
+         byteA = ((char) 0b00111101);
+         byteB = ((char) 0b00110101);
+         break;
+   })
